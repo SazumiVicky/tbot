@@ -1,21 +1,19 @@
-# Telegram Bot
-
 This Telegram bot is built using Telethon and is designed to handle various commands. The bot has a modular structure, where each command is defined in a separate Python file in the `src/cmd` directory.
 
-## Commands
+### Commands
 
 Here's a list of available commands:
 
 - `/menu`: Displays a list of all available commands. The bot will greet the user and provide a list of commands in an easy-to-read format.
 - `/ping`: The bot will respond with a message "Pong!".
 
-## Setup and Usage
+### Setup and Usage
 
 1. Copy the `.env.example` file to a new file named `.env`.
 2. Fill in `API_ID` and `API_HASH` in the `.env` file with your Telegram API details.
 3. Run the bot with the command `python main.py`.
 
-## Adding New Commands
+### Adding New Commands
 
 To add a new command, follow these steps:
 
@@ -36,6 +34,6 @@ cmd_info = {
     "category": "main",
 }
 ```
-## Contributor 
+### Contributor 
 
 - [Sazumi Viki](https://instagram.com/moe.sazumiviki)
