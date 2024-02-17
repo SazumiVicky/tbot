@@ -34,6 +34,5 @@ cmd_info = {
     "cmd": "/hello",
     "help": "Sends a 'Hello, world!' message",
     "category": "main",
-    "owner": False
 }
 ```
