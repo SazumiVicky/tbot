@@ -36,3 +36,6 @@ cmd_info = {
     "category": "main",
 }
 ```
+## Contributor 
+
+- [Sazumi Viki](https://instagram.com/moe.sazumiviki)
